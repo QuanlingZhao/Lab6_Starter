@@ -89,7 +89,6 @@ function saveRecipesToStorage(recipes) {
   //            header. It is possible in only a single line, but should
   //            be no more than a few lines.
 
-  alert(recipes[0]);
 
   let string = JSON.stringify(recipes);
   localStorage.setItem('recipes', string);
